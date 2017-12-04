@@ -7,6 +7,7 @@
 
 2.  working directory(working tree) 工作目錄
     在該目錄下進行編輯以及Git的操作，稱之為"工作目錄"
+
 3.  Git的資料結構分為 “物件 Object” 以及 “索引 index"
 
     a.  物件
