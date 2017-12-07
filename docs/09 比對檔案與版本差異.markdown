@@ -3,10 +3,15 @@
 
 章節整理
 -------
-1. git diff commit1 commit2：比對兩個版本之間的差異。
+1. git diff commit1 commit2：比對兩個版本之間的差異，比對特定兩個版本裡面的tree物件。
 (commit1:較舊的版本，commit2:較新的版本)
 
-2. 
+2. git diff commitid :比對工作目錄 以及指定commit的tree物件。
+
+3. git diff --staged commit: 比對當前的索引狀態與指定commit物件裡的那個tree物件。
+
+4. git diff HEAD^ HEAD: 比對最新版的前一版 以及最新版。
+
 -------
 使用任何版本控管軟體的過程中，經常會需要查看歷史紀錄與比對版本之間的差異。而在使用 Git 的時候要如何進行比對，將是本文重點。
 
